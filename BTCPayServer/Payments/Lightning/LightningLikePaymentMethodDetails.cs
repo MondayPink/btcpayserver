@@ -30,5 +30,7 @@ namespace BTCPayServer.Payments.Lightning
         {
             BOLT11 = newPaymentMethodDetails.GetPaymentDestination();
         }
+
+        public bool Activated { get; set; } = true;
     }
 }
